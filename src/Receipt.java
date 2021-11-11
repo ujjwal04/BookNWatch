@@ -245,7 +245,7 @@ public class Receipt {
 		properties.put("mail.smtp.port","587");
 		
 		String myAccountEmail = "ujjawalverma77@gmail.com";
-		String myAccountPassword = "tushar@1";
+		String myAccountPassword = "";
 		String recepient = email_db;
 		
 		Session session = Session.getInstance(properties, new Authenticator() {
